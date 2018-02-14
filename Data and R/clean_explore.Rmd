@@ -15,7 +15,7 @@ library(tidyverse)
 ```
 
 #### Getting and cleaning data
-Due to technical issue with AMT, data was collected in two sessions. Let's import the first half of the data.
+Import dataset, obtained merging two datasets obtained in two sessions on AMT, then anonymizing worker ids
 ```{r}
 # get data
 d <- read.csv("full-50workers.csv")
